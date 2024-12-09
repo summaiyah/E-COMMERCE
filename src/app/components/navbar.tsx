@@ -1,4 +1,4 @@
-
+import Image from 'next/image';
 export default function NavBar(){
     return(
       <div>
@@ -17,7 +17,7 @@ export default function NavBar(){
         </div>
         <div className="flex justify-between items-center w-full px-4 pt-4">
           <nav className="flex flex-1 justify-between items-center">
-            <img src="/nike.png" alt="logo" className="h-12 w-12 mr-10 ml-4" />
+            <Image src="/nike.png" alt="logo" className="h-12 w-12 mr-10 ml-4" />
      <ul className="flex flex-grow justify-center space-x-6 text-lg">
        <li>New & Featured</li>
        <li>Women</li>

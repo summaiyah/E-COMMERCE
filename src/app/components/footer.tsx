@@ -1,10 +1,11 @@
+import Image from 'next/image';
 export default function Footer(){
     return(
         <div>
 <footer className="p-4 bg-white md:p-8 lg:p-10 dark:bg-gray-800">
   <div className="mx-auto max-w-screen-xl text-center">
       <a href="#" className="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white">
-         <img src="/nike.png" alt="logo" className="h-12 w-12" />
+         <Image src="/nike.png" alt="logo" className="h-12 w-12" />
           NIKE  
       </a>
       <p className="my-6 text-gray-500 dark:text-gray-400">A global leader in athletic footwear, apparel, and equipment, known for its innovative designs and iconic "Just Do It" slogan.</p>
